@@ -1,0 +1,18 @@
+C# is a Programming Language
+
+.Net is a framework for building applications on Windows
+
+The .Net framework consists of two components:
+
+  1. CLR (Common Language Runtime)
+  2. Class Library
+
+CLR: 
+
+When you compile your C# code, the result is what we call IL (Intermediate Language) code, which is independent of the computer on which it is running.
+
+Now we need to tranlate this IL code into the native language of the machine. This is the job of the CLR. This process is known as just-in-time compilation (JIT). 
+
+With this architecture we can write an application in C# and not worry about compiling it into native code for different machines (windows/linux etc.).
+
+
