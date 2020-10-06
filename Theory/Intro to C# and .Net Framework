@@ -16,3 +16,10 @@ Now we need to tranlate this IL code into the native language of the machine. Th
 With this architecture we can write an application in C# and not worry about compiling it into native code for different machines (windows/linux etc.).
 
 
+Architecture of .NET Applications:
+
+Namespaces are containers for related classes.
+
+An assembly (DLL or EXE) is an assembly for related namespaces. Physically it is a file on a disk.
+
+An application is made up of one or more assemblies.
